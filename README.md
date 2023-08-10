@@ -59,8 +59,8 @@ Follow these steps to set up and use TechoForm on your system.
 
 ### Prerequisites
 
-- Node.js (version X.X.X)
-- MongoDB (version X.X.X)
+- Node.js
+- MongoDB
 
 ### Installation
 
