@@ -2,10 +2,11 @@ const { v4: uuidv4 } = require("uuid");
 const { Form } = require("../models/formModel");
 const { Response } = require("../models/responseModel");
 const mongoose = require("mongoose");
+const variables = require("../../config/variables");
 
 // Connect to MongoDB
 const connectDB = mongoose.connect(
-  "mongodb+srv://tusharaggarwal274:tushar123@cluster0.xi2bk9d.mongodb.net/data",
+  variables.MONGO_URL,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
